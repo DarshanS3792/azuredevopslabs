@@ -9,7 +9,7 @@ folder: /labs/vstsextend/php/
 Last updated : {{ "now" | date: "%b %d, %Y" }}.
 ## Overview
 
-**PHP** is a server-side scripting language, and a powerful tool for making dynamic and interactive Web pages.
+**PHP** is a server-side scripting language and a powerful tool for making dynamic and interactive web pages.
 
 This lab shows how to deploy **PHP** application to **Azure App** service using **Azure DevOps**.
 
@@ -33,7 +33,7 @@ This lab shows how to deploy **PHP** application to **Azure App** service using 
    ![VSTS Demo Generator](images/vstsdemogen1-1.png)
 
 
-1. Once the project is provisioned, click the URL to navigate to the project.
+1. Once the project is provisioned, click on the URL to navigate to the project.
 
    ![VSTS Demo Generator](images/vstsdemogen1_2.png)
 
@@ -41,7 +41,7 @@ This lab shows how to deploy **PHP** application to **Azure App** service using 
 
 ## Exercise 1: Configure Release Definition
 
-We will use ARM template as **Infrastructure as a Code**  in the release definition to provisions a Web App and a Web App Service Plan under the specified resource group.
+We will use an ARM template as **Infrastructure as a Code**  in the release definition to provisions a Web App and a Web App Service Plan under the specified resource group.
 
 
 1. Go to **Releases** under **Pipelines** tab, Select release definition **PHP** and click on **Edit**
