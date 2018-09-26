@@ -41,7 +41,7 @@ This lab shows how to deploy **PHP** application to **Azure App** service using 
 
 ## Exercise 1: Configure Release Definition
 
-We will use an ARM template as **Infrastructure as a Code**  in the release definition to provisions a Web App and a Web App Service Plan under the specified resource group.
+You will use an ARM template as **Infrastructure as a Code**  in the release definition to provisions a Web App and a Web App Service Plan under the specified resource group.
 
 
 1. Go to **Releases** under **Pipelines** tab, Select release definition **PHP** and click on **Edit**
@@ -93,7 +93,7 @@ We will use an ARM template as **Infrastructure as a Code**  in the release defi
 
 ## Exercise 2: Deploying the application
 
-**PHP** is an interpreted language, so we don't have to compile the code. Instead we will create an archive file which will be deployed to the Azure App Service.
+**PHP** is an interpreted language, so you don't have to compile the code. Instead you will create an archive file which will be deployed to the Azure App Service.
 
 Let's make a code change to trigger a CI-CD pipeline to build and deploy the application.
 
