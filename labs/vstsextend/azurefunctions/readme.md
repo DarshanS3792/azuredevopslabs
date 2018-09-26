@@ -176,7 +176,7 @@ In this exercise, you will look at the build definition to get an insight of how
 
     ![Continuous Deployment](images/cd.png) 
 
-4. To deploy **PartsUnlimited Website**, click on **Tasks** and select the first **Deploy PartsUnlimited Website** task, and configure the inputs as shown below.
+4. To deploy **PartsUnlimited Website**, click on **Tasks** and select **Deploy PartsUnlimited Website** task, and configure the inputs as shown below.
 
     ![Deploy Site](images/deploysite.png) 
 
